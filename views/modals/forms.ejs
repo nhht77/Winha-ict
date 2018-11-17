@@ -1,0 +1,48 @@
+<div class="modal fade" id="contactMe">
+<div class="modal-dialog" role="document">
+  <div class="modal-content">
+    <div class="modal-header">
+      <h5 class="modal-title" id="exampleModalLabel">Ota yhteyttä</h5>
+      <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+        <span aria-hidden="true">&times;</span>
+      </button>
+    </div>
+    <div class="modal-body">
+      <form action="/mail" method="POST">
+        <div class="form-group">
+          <label for="name" class="col-form-label">Nimi:</label>
+          <input type="text" class="form-control" id="name" name="nimi" required>
+        </div>
+        <div class="form-group">
+          <label for="email" class="col-form-label">Sähköpostiosoite:</label>
+          <input type="text" class="form-control" id="email" name="sähköpostiosoite" required>
+        </div>
+        <div class="form-group">
+          <label for="number" class="col-form-label">Puhelinnumero:</label>
+          <input type="text" class="form-control" id="number" name="puhelinnumero" required>
+        </div>
+        <div class="form-group">
+          <label for="valitse" class="col-form-label">Mihin tarvitset apua?</label>
+          <select class="form-control" name="valitse" id="valitse">
+            <option value="valitse-vaihtoehto">Valitse vaihtoehto</option>
+            <option value="tietotekniikan-huolto-ja-ylläpito">Tietotekniikan huolto ja ylläpito</option>
+            <option value="laitteiden-ja-ohjelmistojen-asennus">Laitteiden ja ohjelmistojen asennus</option>
+            <option value="virustorjunta">Virustorjunta, haittaohjelmien poisto ja muut tietoturvapalvelut</option>
+            <option value="Ohjelmistojen-ja-laitteiden käyttöohjaus">Ohjelmistojen ja laitteiden käyttöohjaus</option>
+            <option value="tiedostojen-varmuuskoiointi">Tiedostojen varmuuskoiointi</option>
+            <option value="kadonneiden-tiedostojen-palautus">Tietotekniikan huolto ja ylläpito</option>
+          </select>
+        </div>
+        <div class="form-group">
+          <label for="message-text" class="col-form-label">Viesti:</label>
+          <textarea class="form-control" id="message-text" name="viesti" required></textarea>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-dismiss="modal">Sulje</button>
+          <button type="submit" class="btn btn-primary">Lähetä</button>
+        </div>
+      </form>
+    </div>
+  </div>
+</div>
+</div>

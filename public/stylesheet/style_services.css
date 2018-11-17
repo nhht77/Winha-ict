@@ -1,0 +1,385 @@
+/****
+Primary-color-1: #7d86d4
+****/
+
+html, body {
+  height:100%;
+  width:100%;
+  font-family: 'PT Sans', sans-serif;
+  background-color: #F8F8F8;
+}
+
+/****** NAVBAR ******/
+.navbar{
+  background-color: #F3F5FD;
+  padding: 1% 0;
+  font-size: 1.2em;
+}
+.navbar-brand{
+  min-height: 55px;
+  padding: 0px;
+}
+
+.number{
+  font-weight: 1000;
+  border-radius: 24px;
+  margin-left:20px;
+}
+.navbar-nav li {
+  margin-right: .8rem;
+}
+
+.navbar-light .navbar-nav .active>.nav-link {
+  color: #7d86d4;
+  transition: all .2s;
+}
+
+.navbar-light .navbar-nav .nav-item>.nav-link {
+  color: #424770;
+  transition: all .2s;
+}
+
+.navbar-light .navbar-nav .nav-item>.nav-link:hover{
+  color: #7D86D4;
+}
+
+/******* Button *******/
+.btn-outline-primary{
+  color: #fff;
+  border-radius: 20px;
+  border: 1px solid #fff;
+}
+.btn-outline-dark{
+  border-radius: 20px;
+}
+.btn-outline-primary:hover{
+  color: #7d86d4;
+  border: 1px solid #fff;
+  border-radius: 20px;
+  background-color: #fff;
+}
+.btn-outline-dark:hover{
+  border: 1px solid #fff;
+  border-radius: 20px;
+  background-color: #7D86D4;
+}
+.modal-dialog .btn-primary{
+  background: #7D86D4;
+  color: #fff;
+  border: none;
+}
+
+.modal-dialog .btn-primary:hover{
+  background: #5c629c;
+}
+/******* Header *******/
+.logo{
+  height: 100px;
+}
+
+/******* SECTION HOME *******/
+.section-home{
+  background: url(img/freestocks-org-540554-unsplash.jpg) no-repeat center center fixed;
+  display: table;
+  height: 90%;
+  position: relative;
+  width: 100%;
+  background-size: cover;
+  color: #fff;
+}
+.header-block{
+  background: #6780ff90;
+  background: -webkit-linear-gradient(#6780ff95 0%, #34408095 100%);
+  background: -o-linear-gradient(#6780ff95 0%, #34408095 100%);
+  background: linear-gradient(#6780ff95 0%, #34408095 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#6780ff', endColorstr='#344080',GradientType=0 );
+  -webkit-clip-path: polygon(74% 0, 100% 0, 100% 100%, 0% 100%);
+  clip-path: polygon(74% 0, 100% 0, 100% 100%, 0% 100%);
+  position: absolute;
+  height: 100%;
+  width: 100%;
+
+}
+.landing-text{
+  position: relative;
+  float: right;
+  max-width: 500px;
+}
+.landing-text h1 {
+  margin-top:30vh;
+  margin-bottom: 50px;
+  font-size: 70px;
+  font-weight: 1000;
+  line-height: 1.4;
+  border-bottom: 5px solid #fff;
+  max-width: 400px;
+}
+.landing-text h3 {
+  margin-bottom: 50px;
+}
+.fa-arrow-circle-down{
+  color: #fff;
+}
+.landing-image{
+  margin-top: 100px;
+  max-width: 100%;
+  height: auto;
+}
+.offer{
+  text-align: center;
+  color: white;
+}
+.offer h3{
+  font-size: 2em;
+  color: white;
+}
+.old-logo{
+  height:200px;
+  width: 100%;
+}
+/******* SECTION SERVICES *******/
+.section-services{
+  margin-top: 10vh;
+}
+
+.section-services .row {
+  margin-top: 40px;
+}
+.section-services a {
+  text-decoration: none;
+  display: block;
+  padding-top: 40px;
+}
+.section-services a:hover {
+  text-decoration: underline;
+  color: #4B51AD;
+  display: block;
+}
+.section-services h4 {
+  color: #7d86d4;
+  transition: 200ms ease-in;
+}
+.contact h3{
+  color: #584F70;
+  margin-top: 20vh;
+  text-align: center;
+}
+.contact button {
+  display: block;
+  margin: 0 auto;
+}
+.contact {
+  padding-bottom: 10vh;
+}
+/******* SECTION FEATURES *******/
+.section-features, .section-features .card {
+  background-color: #F3F5FD;
+}
+
+.section-features .card{
+  border: none;
+}
+.section-features .card img {
+  float: left;
+  height: 50px;
+  width: 50px;
+  margin-left: 1.25rem;
+}
+
+.section-about img{
+  margin: 0 auto;
+}
+.card-title{
+  font-weight:bold;
+
+}
+.card-text {
+  font-size: 0.9em;
+}
+.card-img-top{
+  height:200px;
+}
+
+
+
+.section-features-text{
+  width: 60%;
+  margin: 0 auto;
+  text-align: center;
+}
+.section-features-subtitle{
+  margin-bottom: 70px;
+}
+#fixed {
+  background: url(img/background.jpg) no-repeat center center fixed;
+  display: table;
+  height: 60%;
+  position: relative;
+  width: 100%;
+  background-size: cover;
+
+}
+
+/******* FOOTER *******/
+footer{
+  width: 100%;
+  background-color: #7D86D4;
+  padding: 5% 5% 10% 5%;
+  color: #fff;
+}
+footer li{
+  display: inline;
+  padding-right: 20px;
+
+}
+footer ul{
+  padding: 50px 0px 0px 0px;
+}
+footer a{
+  color: #fff;
+}
+footer a:hover{
+  color: #fff;
+}
+.footer-right-col {
+  border-left: 1px solid #fff;
+}
+.fa {
+  padding: 15px;
+  font-size: 25px;
+
+}
+.footer-bot{
+  border-top: 1px solid #fff;
+}
+.fab:hover{
+  color: #d5d5d5;
+  text-decoration: none;
+}
+.fa-facebook:before {
+    color: #fff;
+}
+.fa-twitter:before {
+    color: #fff;
+}
+.fa-google:before {
+    color: #fff;
+}
+.fa-linkedin:before {
+    color: #fff;
+}
+.fa-youtube:before {
+    color: #fff;
+}
+.icon{
+  max-width: 200px;
+}
+
+/***************/
+/* RESPONSIVE DESIGN */
+/***************/
+
+/* TABLET SIZE */
+@media (max-width: 768px){
+  .padding{
+    padding-top:40px;
+    padding-bottom: 40px;
+  }
+
+  .landing-text{
+    font-size: 80%;
+  }
+
+  .service .card-body{
+    margin-bottom: 100px;
+  }
+  .service .card-text{
+    margin: 0 auto;
+    width:  60%;
+  }
+
+  .landing-image{
+    display:none;
+  }
+  .landing-text{
+    text-align: center;
+  }
+
+  .landing-text .button{
+    margin-bottom: 50px;
+
+  }
+  .landing-text h1 {
+    font-size: 300%;
+  }
+  .fa {
+    font-size: 20px;
+    padding: 10px;
+  }
+  .icon{
+    padding-top: 5%;
+    max-width: 100px;
+  }
+
+  .section-services .card-img-top {
+    width: 30%;
+}
+  .section-home .btn {
+    margin-bottom: 20px;
+  }
+
+.section-features .card{
+  text-align: center;
+}
+
+.section-features .card img {
+  float:none;
+  padding-top: 10px;
+  margin:0 auto;
+}
+.section-about{
+  text-align: center;
+}
+
+.section-about img{
+  margin-bottom: 2rem;
+}
+
+}
+
+/* SMALL DEVICES SIZE */
+@media (max-width: 990px){
+  .footer-right-col{
+    border-left: none;
+    text-align: left;
+  }
+  .footer-right-col h5{
+    padding-left: 0!important;
+  }
+  .footer-bot {
+   border-top: none;
+}
+@media (max-width: 576px){
+  section h1{
+    font-size: 2rem;
+  }
+
+  .section-home .landing-text h3{
+    font-size: 1.25rem;
+  }
+
+  .section-about{
+    text-align: center;
+  }
+
+
+}
+/* FIX SECTION SERVICES PADDING FROM 80PX TO 20PX */
+  .section-services .padding{
+    padding: 20px auto;
+  }
+
+  .section-services .card-img-top {
+      width: 35%;
+  }
+}

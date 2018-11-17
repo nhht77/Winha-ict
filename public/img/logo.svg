@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 19.0.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 960 408" style="enable-background:new 0 0 960 408;" xml:space="preserve">
+<style type="text/css">
+	.st0{fill:url(#XMLID_21_);}
+	.st1{fill:url(#XMLID_24_);}
+	.st2{fill:url(#XMLID_25_);}
+	.st3{fill:url(#XMLID_39_);}
+	.st4{fill:#A0989D;stroke:#000000;stroke-miterlimit:10;}
+	.st5{font-family:'MVBoli';}
+	.st6{font-size:127.1395px;}
+	.st7{fill:#2561A6;stroke:#000000;stroke-miterlimit:10;}
+	.st8{font-size:78.2397px;}
+</style>
+<g id="XMLID_17_">
+	<linearGradient id="XMLID_21_" gradientUnits="userSpaceOnUse" x1="-144.1758" y1="379.2903" x2="405.9471" y2="-143.9376">
+		<stop  offset="0" style="stop-color:#000018"/>
+		<stop  offset="1" style="stop-color:#044185"/>
+	</linearGradient>
+	<path id="XMLID_7_" class="st0" d="M50.6,160.6c0,0,75-206.2,259.2-99.4c0,0-179.3-171.1-301.5,99.4H50.6z"/>
+	<radialGradient id="XMLID_24_" cx="170.471" cy="127.6658" r="87.6453" gradientUnits="userSpaceOnUse">
+		<stop  offset="0" style="stop-color:#FFFFFF"/>
+		<stop  offset="1" style="stop-color:#000000"/>
+	</radialGradient>
+	<path id="XMLID_6_" class="st1" d="M73.5,163.1h38.3c0,0,58.4-144.4,191.5-72.1c2.1,1.2,4.3,2.4,6.5,3.7
+		C309.8,94.6,176.1-35,73.5,163.1z"/>
+	<linearGradient id="XMLID_25_" gradientUnits="userSpaceOnUse" x1="-52.6829" y1="228.8711" x2="276.5758" y2="404.0954">
+		<stop  offset="0" style="stop-color:#000018"/>
+		<stop  offset="1" style="stop-color:#044185"/>
+	</linearGradient>
+	<path id="XMLID_5_" class="st2" d="M47.4,251.2c0,0,75,206.2,259.2,99.4c0,0-179.3,171.1-301.5-99.4H47.4z"/>
+	<radialGradient id="XMLID_39_" cx="188.3743" cy="308.6765" r="92.1834" gradientUnits="userSpaceOnUse">
+		<stop  offset="0" style="stop-color:#FFFFFF"/>
+		<stop  offset="1" style="stop-color:#000000"/>
+	</radialGradient>
+	<path id="XMLID_4_" class="st3" d="M70.2,253.6h38.3c0,0,58.4,144.4,191.5,72.1c2.1-1.2,4.3-2.4,6.5-3.7
+		C306.5,322.1,172.9,451.7,70.2,253.6z"/>
+</g>
+<g id="XMLID_3_">
+	<text id="XMLID_50_" transform="matrix(1 0 0 1 155.7749 246.292)" class="st4 st5 st6">Winha</text>
+</g>
+<g id="XMLID_2_">
+	<text id="XMLID_51_" transform="matrix(1 0 0 1 520.1025 246.292)" class="st7 st5 st6">ict</text>
+</g>
+<text id="XMLID_1_" transform="matrix(1 0 0 1 348.9541 363.7256)" class="st5 st8">-tietokoneholto-</text>
+</svg>
