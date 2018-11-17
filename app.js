@@ -2,8 +2,7 @@ const express    = require('express'),
       app        = express(),
       path       = require('path'),
       bodyParser = require('body-parser'),
-      email       = require('./config/email');
-      mailgun    = require('mailgun-js')({apiKey: email.api_key, domain: email.domain}),
+      mailgun    = require('mailgun-js')({apiKey: process.env.mailApi_key, domain: process.env.mailDomain}),
       PORT       = process.env.PORT || 8000;
 
 app.use(bodyParser.urlencoded({extended: true}));
