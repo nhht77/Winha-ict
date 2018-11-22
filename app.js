@@ -3,7 +3,7 @@ const express    = require('express'),
       path       = require('path'),
       bodyParser = require('body-parser'),
       swal       = require('sweetalert'),
-      mailgun    = require('mailgun-js')({apiKey: process.env.mailApi_key, domain:process.env.mailDomain}),
+      mailgun    = require('mailgun-js')({apiKey:  process.env.mailApi_key, domain:process.env.mailDomain}),
       PORT       = process.env.PORT || 8000;
 
 app.use(bodyParser.urlencoded({extended: true}));
@@ -13,6 +13,7 @@ app.use(express.static(__dirname + "/public"));
 app.get('/', (req, res) => {
     res.render('index');
 })
+
 
 app.post('/mail', (req, res) => {
     const requests = {
@@ -40,7 +41,7 @@ app.post('/mail', (req, res) => {
        
       mailgun.messages().send(data,  (error, body) => {
         if(error){
-
+            res.send('<h1>There is some errors, please try again</h1>')
             console.log(error);
         }else{
           console.log(body);
@@ -48,7 +49,7 @@ app.post('/mail', (req, res) => {
       });
 
     console.log(data);
-    res.redirect('/');
+    res.send('<h1>Thanks for contacting us, we will get to you ASAP </h1>');
 })
 
 app.get('/palvelut', (req, res) => {

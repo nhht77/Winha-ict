@@ -79,7 +79,7 @@ html, body {
 
 /******* SECTION HOME *******/
 .section-home{
-  background: url(img/freestocks-org-540554-unsplash.jpg) no-repeat center center fixed;
+  background: url('../img/background2-min.jpg') no-repeat center center fixed;
   display: table;
   height: 90%;
   position: relative;
@@ -238,9 +238,11 @@ footer ul{
 footer a{
   color: #fff;
 }
+
 footer a:hover{
   color: #fff;
 }
+
 .footer-right-col {
   border-left: 1px solid #fff;
 }
@@ -343,6 +345,23 @@ footer a:hover{
 
 .section-about img{
   margin-bottom: 2rem;
+}
+
+
+footer .row .col-lg-8{
+  text-align: center;
+}
+
+footer .row .col-lg-4 .footer-right-col{
+  text-align: center;
+}
+
+footer .footer-bot .col-lg-8{
+  text-align: center;
+}
+
+footer .footer-bot .col-lg-4{
+  text-align: center;
 }
 
 }
