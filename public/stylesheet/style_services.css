@@ -159,9 +159,13 @@ html, body {
   color: #7d86d4;
   transition: 200ms ease-in;
 }
+.contact{
+  background-color: #F3F5FD;
+}
+
 .contact h3{
   color: #584F70;
-  margin-top: 20vh;
+  margin-top: 10vh;
   text-align: center;
 }
 .contact button {
@@ -326,6 +330,7 @@ footer a:hover{
   .section-services .card-img-top {
     width: 30%;
 }
+
   .section-home .btn {
     margin-bottom: 20px;
   }
@@ -347,7 +352,26 @@ footer a:hover{
   margin-bottom: 2rem;
 }
 
+.header-block{
+-webkit-clip-path: polygon(0 0, 100% 0, 100% 100%, 0% 100%);
+  clip-path: polygon(0 0, 100% 0, 100% 100%, 0% 100%);
+}
+}
 
+/* SMALL DEVICES SIZE */
+@media (max-width: 990px){
+  .footer-right-col{
+    border-left: none;
+    text-align: left;
+  }
+  .footer-right-col h5{
+    padding-left: 0!important;
+  }
+  .footer-bot {
+   border-top: none;
+}
+
+  
 footer .row .col-lg-8{
   text-align: center;
 }
@@ -363,20 +387,6 @@ footer .footer-bot .col-lg-8{
 footer .footer-bot .col-lg-4{
   text-align: center;
 }
-
-}
-
-/* SMALL DEVICES SIZE */
-@media (max-width: 990px){
-  .footer-right-col{
-    border-left: none;
-    text-align: left;
-  }
-  .footer-right-col h5{
-    padding-left: 0!important;
-  }
-  .footer-bot {
-   border-top: none;
 }
 @media (max-width: 576px){
   section h1{
@@ -389,6 +399,15 @@ footer .footer-bot .col-lg-4{
 
   .section-about{
     text-align: center;
+  }
+
+  .contact h3{
+    font-size: 1.25rem;
+  }
+
+  .btn-group-lg>.btn,
+  .btn-lg{
+    font-size: 1rem;
   }
 
 

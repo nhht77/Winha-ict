@@ -326,6 +326,24 @@ footer a:hover{
    border-top: none;
 }
 
+footer .row .col-lg-8{
+  text-align: center;
+}
+
+footer .row .col-lg-4 .footer-right-col{
+  text-align: center;
+}
+
+footer .footer-bot .col-lg-8{
+  text-align: center;
+}
+
+footer .footer-bot .col-lg-4{
+  text-align: center;
+}
+
+
+}
 
 /* TABLET SIZE */
 @media (max-width: 768px){
@@ -392,22 +410,6 @@ footer a:hover{
 
 .section-about img{
   margin-bottom: 2rem;
-}
-
-footer .row .col-lg-8{
-  text-align: center;
-}
-
-footer .row .col-lg-4 .footer-right-col{
-  text-align: center;
-}
-
-footer .footer-bot .col-lg-8{
-  text-align: center;
-}
-
-footer .footer-bot .col-lg-4{
-  text-align: center;
 }
 
 }
