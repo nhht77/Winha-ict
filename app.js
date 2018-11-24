@@ -3,7 +3,7 @@ const express    = require('express'),
       path       = require('path'),
       bodyParser = require('body-parser'),
       swal       = require('sweetalert'),
-      mailgun    = require('mailgun-js')({apiKey:  process.env.mailApi_key, domain:process.env.mailDomain}),
+      //mailgun    = require('mailgun-js')({apiKey:  process.env.mailApi_key, domain:process.env.mailDomain}),
       PORT       = process.env.PORT || 8000;
 
 app.use(bodyParser.urlencoded({extended: true}));
@@ -21,16 +21,16 @@ app.post('/mail', (req, res) => {
         sähköpostiosoite: req.body.sähköpostiosoite,
         puhelinnumero: req.body.puhelinnumero,
         valitse: req.body.valitse,
-        viesti: req.body.viesti 
+        viesti: req.body.viesti
     }
-    
+
     var data = {
         from: 'Trung <jleevi@gmail.com>',
         to: 'nhht77@gmail.com',
         subject: 'Hello World',
         text: 'You have this request:',
-        html: `<h1>You have a new request from:</h1> 
-                <ul> 
+        html: `<h1>You have a new request from:</h1>
+                <ul>
                     <li>Nimi: ${requests.nimi}</li>
                     <li>Sähköpostiosoite: ${requests.sähköpostiosoite}</li>
                     <li>Puhelinnumero: ${requests.puhelinnumero}</li>
@@ -38,7 +38,7 @@ app.post('/mail', (req, res) => {
                     <li>viesti: ${requests.viesti}</li>
                 </ul>`
       };
-       
+
       mailgun.messages().send(data,  (error, body) => {
         if(error){
             res.send('<h1>There is some errors, please try again</h1>')
